@@ -1,0 +1,10 @@
+F:\------------------------------------------------\iReading\iReading.API\bin\Debug\netcoreapp2.0\iReading.API.deps.json
+F:\------------------------------------------------\iReading\iReading.API\bin\Debug\netcoreapp2.0\iReading.API.runtimeconfig.json
+F:\------------------------------------------------\iReading\iReading.API\bin\Debug\netcoreapp2.0\iReading.API.runtimeconfig.dev.json
+F:\------------------------------------------------\iReading\iReading.API\bin\Debug\netcoreapp2.0\iReading.API.dll
+F:\------------------------------------------------\iReading\iReading.API\bin\Debug\netcoreapp2.0\iReading.API.pdb
+F:\------------------------------------------------\iReading\iReading.API\obj\Debug\netcoreapp2.0\iReading.API.csproj.CoreCompileInputs.cache
+F:\------------------------------------------------\iReading\iReading.API\obj\Debug\netcoreapp2.0\iReading.API.AssemblyInfoInputs.cache
+F:\------------------------------------------------\iReading\iReading.API\obj\Debug\netcoreapp2.0\iReading.API.AssemblyInfo.cs
+F:\------------------------------------------------\iReading\iReading.API\obj\Debug\netcoreapp2.0\iReading.API.dll
+F:\------------------------------------------------\iReading\iReading.API\obj\Debug\netcoreapp2.0\iReading.API.pdb

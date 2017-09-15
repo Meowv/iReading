@@ -1,0 +1,8 @@
+F:\------------------------------------------------\iReading\iReading.DAL\bin\Debug\netcoreapp2.0\iReading.DAL.deps.json
+F:\------------------------------------------------\iReading\iReading.DAL\bin\Debug\netcoreapp2.0\iReading.DAL.dll
+F:\------------------------------------------------\iReading\iReading.DAL\bin\Debug\netcoreapp2.0\iReading.DAL.pdb
+F:\------------------------------------------------\iReading\iReading.DAL\obj\Debug\netcoreapp2.0\iReading.DAL.csproj.CoreCompileInputs.cache
+F:\------------------------------------------------\iReading\iReading.DAL\obj\Debug\netcoreapp2.0\iReading.DAL.AssemblyInfoInputs.cache
+F:\------------------------------------------------\iReading\iReading.DAL\obj\Debug\netcoreapp2.0\iReading.DAL.AssemblyInfo.cs
+F:\------------------------------------------------\iReading\iReading.DAL\obj\Debug\netcoreapp2.0\iReading.DAL.dll
+F:\------------------------------------------------\iReading\iReading.DAL\obj\Debug\netcoreapp2.0\iReading.DAL.pdb
