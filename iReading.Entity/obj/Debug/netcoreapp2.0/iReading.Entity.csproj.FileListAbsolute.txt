@@ -1,8 +1,0 @@
-F:\------------------------------------------------\iReading\iReading.Entity\bin\Debug\netcoreapp2.0\iReading.Entity.deps.json
-F:\------------------------------------------------\iReading\iReading.Entity\bin\Debug\netcoreapp2.0\iReading.Entity.dll
-F:\------------------------------------------------\iReading\iReading.Entity\bin\Debug\netcoreapp2.0\iReading.Entity.pdb
-F:\------------------------------------------------\iReading\iReading.Entity\obj\Debug\netcoreapp2.0\iReading.Entity.csproj.CoreCompileInputs.cache
-F:\------------------------------------------------\iReading\iReading.Entity\obj\Debug\netcoreapp2.0\iReading.Entity.AssemblyInfoInputs.cache
-F:\------------------------------------------------\iReading\iReading.Entity\obj\Debug\netcoreapp2.0\iReading.Entity.AssemblyInfo.cs
-F:\------------------------------------------------\iReading\iReading.Entity\obj\Debug\netcoreapp2.0\iReading.Entity.dll
-F:\------------------------------------------------\iReading\iReading.Entity\obj\Debug\netcoreapp2.0\iReading.Entity.pdb

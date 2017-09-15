@@ -4746,6 +4746,45 @@
         "runtime": {
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
+      },
+      "iReading.BLL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "iReading.DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/iReading.BLL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/iReading.BLL.dll": {}
+        }
+      },
+      "iReading.DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "2.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.0.0",
+          "Microsoft.EntityFrameworkCore.Tools": "2.0.0",
+          "iReading.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/iReading.DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/iReading.DAL.dll": {}
+        }
+      },
+      "iReading.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/iReading.Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/iReading.Entity.dll": {}
+        }
       }
     }
   },
@@ -12524,12 +12563,28 @@
         "windowsazure.storage.8.1.4.nupkg.sha512",
         "windowsazure.storage.nuspec"
       ]
+    },
+    "iReading.BLL/1.0.0": {
+      "type": "project",
+      "path": "../iReading.BLL/iReading.BLL.csproj",
+      "msbuildProject": "../iReading.BLL/iReading.BLL.csproj"
+    },
+    "iReading.DAL/1.0.0": {
+      "type": "project",
+      "path": "../iReading.DAL/iReading.DAL.csproj",
+      "msbuildProject": "../iReading.DAL/iReading.DAL.csproj"
+    },
+    "iReading.Entity/1.0.0": {
+      "type": "project",
+      "path": "../iReading.Entity/iReading.Entity.csproj",
+      "msbuildProject": "../iReading.Entity/iReading.Entity.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.AspNetCore.All >= 2.0.0",
-      "Microsoft.NETCore.App >= 2.0.0"
+      "Microsoft.NETCore.App >= 2.0.0",
+      "iReading.BLL >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -12564,7 +12619,11 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "F:\\------------------------------------------------\\iReading\\iReading.BLL\\iReading.BLL.csproj": {
+              "projectPath": "F:\\------------------------------------------------\\iReading\\iReading.BLL\\iReading.BLL.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
