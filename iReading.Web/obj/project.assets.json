@@ -7597,7 +7597,7 @@
       ]
     },
     "Remotion.Linq/2.1.1": {
-      "sha512": "BTv0lnP/zaBLvAwu8nB/g3JG7McNbVGOA8AvYnTiyw1vo/n8XAJhWug9/8Pl+wsfwIPq02yP2zFj/oz7m29MXQ==",
+      "sha512": "IJn0BqkvwEDpP+2qjvci7n4/a9f7DhKESLWb2/uG4xQh3rTkGTBUz69bI4IivCoKkTFAqjXxYDZw2K/npohjsw==",
       "type": "package",
       "path": "remotion.linq/2.1.1",
       "files": [
@@ -9633,7 +9633,7 @@
       ]
     },
     "System.Linq.Queryable/4.0.1": {
-      "sha512": "0klnO5OVmEN8wGDdG0Pa3Z+LGsJDlxXMDIKTyawg2B865ayIGuXJB3E5y7tFFsexHxdYc7SCn0lhHRblF0Rl5w==",
+      "sha512": "Yn/WfYe9RoRfmSLvUt2JerP0BTGGykCZkQPgojaxgzF2N0oPo+/AhB8TXOpdCcNlrG3VRtsamtK2uzsp3cqRVw==",
       "type": "package",
       "path": "system.linq.queryable/4.0.1",
       "files": [
@@ -12588,7 +12588,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\qix\\.nuget\\packages\\": {},
+    "C:\\Users\\hackx\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -12597,17 +12597,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "F:\\------------------------------------------------\\iReading\\iReading.Web\\iReading.Web.csproj",
+      "projectUniqueName": "C:\\Users\\hackx\\Desktop\\iReading\\iReading.Web\\iReading.Web.csproj",
       "projectName": "iReading.Web",
-      "projectPath": "F:\\------------------------------------------------\\iReading\\iReading.Web\\iReading.Web.csproj",
-      "packagesPath": "C:\\Users\\qix\\.nuget\\packages\\",
-      "outputPath": "F:\\------------------------------------------------\\iReading\\iReading.Web\\obj\\",
+      "projectPath": "C:\\Users\\hackx\\Desktop\\iReading\\iReading.Web\\iReading.Web.csproj",
+      "packagesPath": "C:\\Users\\hackx\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hackx\\Desktop\\iReading\\iReading.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\qix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hackx\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12620,8 +12620,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "F:\\------------------------------------------------\\iReading\\iReading.BLL\\iReading.BLL.csproj": {
-              "projectPath": "F:\\------------------------------------------------\\iReading\\iReading.BLL\\iReading.BLL.csproj"
+            "C:\\Users\\hackx\\Desktop\\iReading\\iReading.BLL\\iReading.BLL.csproj": {
+              "projectPath": "C:\\Users\\hackx\\Desktop\\iReading\\iReading.BLL\\iReading.BLL.csproj"
             }
           }
         }

@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace iReading.DAL.Migrations
 {
-    public partial class I : Migration
+    public partial class Init : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -15,16 +15,16 @@ namespace iReading.DAL.Migrations
                 {
                     ArticleId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    Author = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Category = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Details = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Author = table.Column<string>(type: "nvarchar(100)", nullable: true),
+                    Category = table.Column<string>(type: "nvarchar(100)", nullable: false),
+                    Details = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     IsDelete = table.Column<int>(type: "int", nullable: false),
-                    IssueTime = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    Logo = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    IssueTime = table.Column<DateTime>(type: "datetime", nullable: false),
+                    Logo = table.Column<string>(type: "nvarchar(500)", nullable: true),
                     Status = table.Column<int>(type: "int", nullable: false),
-                    Summary = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Title = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    UpdateTime = table.Column<DateTime>(type: "datetime2", nullable: false)
+                    Summary = table.Column<string>(type: "nvarchar(500)", nullable: false),
+                    Title = table.Column<string>(type: "nvarchar(200)", nullable: false),
+                    UpdateTime = table.Column<DateTime>(type: "datetime", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -37,12 +37,12 @@ namespace iReading.DAL.Migrations
                 {
                     ArticleId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    City = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    City = table.Column<string>(type: "nvarchar(100)", nullable: false),
                     Hits = table.Column<int>(type: "int", nullable: false),
                     ShowHits = table.Column<int>(type: "int", nullable: false),
                     UserAgent = table.Column<int>(type: "int", nullable: false),
-                    UserIp = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    ViewTime = table.Column<DateTime>(type: "datetime2", nullable: false)
+                    UserIp = table.Column<string>(type: "nvarchar(100)", nullable: false),
+                    ViewTime = table.Column<DateTime>(type: "datetime", nullable: false)
                 },
                 constraints: table =>
                 {

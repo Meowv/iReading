@@ -664,7 +664,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\qix\\.nuget\\packages\\": {},
+    "C:\\Users\\hackx\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -673,17 +673,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "F:\\------------------------------------------------\\iReading\\iReading.Job\\iReading.Job.csproj",
+      "projectUniqueName": "C:\\Users\\hackx\\Desktop\\iReading\\iReading.Job\\iReading.Job.csproj",
       "projectName": "iReading.Job",
-      "projectPath": "F:\\------------------------------------------------\\iReading\\iReading.Job\\iReading.Job.csproj",
-      "packagesPath": "C:\\Users\\qix\\.nuget\\packages\\",
-      "outputPath": "F:\\------------------------------------------------\\iReading\\iReading.Job\\obj\\",
+      "projectPath": "C:\\Users\\hackx\\Desktop\\iReading\\iReading.Job\\iReading.Job.csproj",
+      "packagesPath": "C:\\Users\\hackx\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hackx\\Desktop\\iReading\\iReading.Job\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\qix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hackx\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

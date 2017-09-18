@@ -11,8 +11,8 @@ using System;
 namespace iReading.DAL.Migrations
 {
     [DbContext(typeof(ArticleDbContext))]
-    [Migration("20170915092540_I")]
-    partial class I
+    [Migration("20170918090820_Init")]
+    partial class Init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
