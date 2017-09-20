@@ -1,0 +1,18 @@
+﻿@model ArticleViewModel
+@{
+    ViewData["Title"] = "iReading";
+}
+<div class="container content-box">
+    <div class=".col-md-6 .col-md-offset-3">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <h1 class="title">@Model.Title</h1>
+                <p class="author">@Model.Author</p>
+                <div class="content">
+                    @Html.Raw(Model.Content)
+                </div>
+                <div class="random"><button type="button" class="btn btn-default btn-lg btnRandom"></button> </div>
+            </div>
+        </div>
+    </div>
+</div>

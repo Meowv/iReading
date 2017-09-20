@@ -37,7 +37,7 @@ namespace iReading.Web
             }
             else
             {
-                app.UseExceptionHandler("/Error");
+                app.UseExceptionHandler("/Home/Error");
             }
 
             app.UseStaticFiles();
@@ -45,8 +45,8 @@ namespace iReading.Web
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
-                    name: "default",
-                    template: "{controller}/{action=Index}/{id?}");
+                    name: "Home",
+                    template: "{controller=Home}/{action=Index}");
             });
         }
     }
