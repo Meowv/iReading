@@ -1,18 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using iReading.DAL;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
 
 namespace iReading.API
 {
     public class Startup
     {
+        public static string connection;
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -24,6 +22,9 @@ namespace iReading.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+
+            connection = Configuration.GetConnectionString("SqlServerConnection");
+            services.AddDbContext<ArticleDbContext>(options => options.UseSqlServer(connection));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

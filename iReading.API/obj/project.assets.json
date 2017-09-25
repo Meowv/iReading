@@ -4746,6 +4746,45 @@
         "runtime": {
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
+      },
+      "iReading.BLL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "iReading.DAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/iReading.BLL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/iReading.BLL.dll": {}
+        }
+      },
+      "iReading.DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "2.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.0.0",
+          "Microsoft.EntityFrameworkCore.Tools": "2.0.0",
+          "iReading.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/iReading.DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/iReading.DAL.dll": {}
+        }
+      },
+      "iReading.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/iReading.Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/iReading.Entity.dll": {}
+        }
       }
     }
   },
@@ -7558,7 +7597,7 @@
       ]
     },
     "Remotion.Linq/2.1.1": {
-      "sha512": "IJn0BqkvwEDpP+2qjvci7n4/a9f7DhKESLWb2/uG4xQh3rTkGTBUz69bI4IivCoKkTFAqjXxYDZw2K/npohjsw==",
+      "sha512": "BTv0lnP/zaBLvAwu8nB/g3JG7McNbVGOA8AvYnTiyw1vo/n8XAJhWug9/8Pl+wsfwIPq02yP2zFj/oz7m29MXQ==",
       "type": "package",
       "path": "remotion.linq/2.1.1",
       "files": [
@@ -9594,7 +9633,7 @@
       ]
     },
     "System.Linq.Queryable/4.0.1": {
-      "sha512": "Yn/WfYe9RoRfmSLvUt2JerP0BTGGykCZkQPgojaxgzF2N0oPo+/AhB8TXOpdCcNlrG3VRtsamtK2uzsp3cqRVw==",
+      "sha512": "0klnO5OVmEN8wGDdG0Pa3Z+LGsJDlxXMDIKTyawg2B865ayIGuXJB3E5y7tFFsexHxdYc7SCn0lhHRblF0Rl5w==",
       "type": "package",
       "path": "system.linq.queryable/4.0.1",
       "files": [
@@ -12524,16 +12563,32 @@
         "windowsazure.storage.8.1.4.nupkg.sha512",
         "windowsazure.storage.nuspec"
       ]
+    },
+    "iReading.BLL/1.0.0": {
+      "type": "project",
+      "path": "../iReading.BLL/iReading.BLL.csproj",
+      "msbuildProject": "../iReading.BLL/iReading.BLL.csproj"
+    },
+    "iReading.DAL/1.0.0": {
+      "type": "project",
+      "path": "../iReading.DAL/iReading.DAL.csproj",
+      "msbuildProject": "../iReading.DAL/iReading.DAL.csproj"
+    },
+    "iReading.Entity/1.0.0": {
+      "type": "project",
+      "path": "../iReading.Entity/iReading.Entity.csproj",
+      "msbuildProject": "../iReading.Entity/iReading.Entity.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.AspNetCore.All >= 2.0.0",
-      "Microsoft.NETCore.App >= 2.0.0"
+      "Microsoft.NETCore.App >= 2.0.0",
+      "iReading.BLL >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hackx\\.nuget\\packages\\": {},
+    "C:\\Users\\qix\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -12542,17 +12597,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Users\\hackx\\Desktop\\iReading\\iReading.API\\iReading.API.csproj",
+      "projectUniqueName": "F:\\------------------------------------------------\\iReading\\iReading.API\\iReading.API.csproj",
       "projectName": "iReading.API",
-      "projectPath": "C:\\Users\\hackx\\Desktop\\iReading\\iReading.API\\iReading.API.csproj",
-      "packagesPath": "C:\\Users\\hackx\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hackx\\Desktop\\iReading\\iReading.API\\obj\\",
+      "projectPath": "F:\\------------------------------------------------\\iReading\\iReading.API\\iReading.API.csproj",
+      "packagesPath": "C:\\Users\\qix\\.nuget\\packages\\",
+      "outputPath": "F:\\------------------------------------------------\\iReading\\iReading.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\hackx\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\qix\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -12564,7 +12619,11 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "F:\\------------------------------------------------\\iReading\\iReading.BLL\\iReading.BLL.csproj": {
+              "projectPath": "F:\\------------------------------------------------\\iReading\\iReading.BLL\\iReading.BLL.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

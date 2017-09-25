@@ -6,7 +6,7 @@ namespace iReading.Job
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
         }
     }
 }
