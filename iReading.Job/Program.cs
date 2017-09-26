@@ -4,6 +4,7 @@ using iReading.Utility;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace iReading.Job
 {
@@ -17,17 +18,25 @@ namespace iReading.Job
 
             using (ArticleDbContext db = new ArticleDbContext("Server=.;Database=Reading;User ID=sa;Password=123456"))
             {
-                db.Articles.Add(new Articles()
+                var title = (string)obj["data"]["title"];
+                var author = (string)obj["data"]["author"];
+
+                //表中是否存在此条数据
+                bool exist = db.Articles.Any(a => a.Title == title && a.Author == author);
+                if (!exist)
                 {
-                    Title = (string)obj["data"]["title"],
-                    Author = (string)obj["data"]["author"],
-                    Details = (string)obj["data"]["content"],
-                    Summary = (string)obj["data"]["digest"],
-                    Category = "阅读",
-                    IssueTime = DateTime.Now,
-                    UpdateTime = DateTime.Now
-                });
-                db.SaveChanges();
+                    db.Articles.Add(new Articles()
+                    {
+                        Title = title,
+                        Author = author,
+                        Details = (string)obj["data"]["content"],
+                        Summary = (string)obj["data"]["digest"],
+                        Category = "阅读",
+                        IssueTime = DateTime.Now,
+                        UpdateTime = DateTime.Now
+                    });
+                    db.SaveChanges();
+                }
             }
         }
     }
