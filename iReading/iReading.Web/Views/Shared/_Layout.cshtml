@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>@ViewData["Title"]</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/style/main.css">
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">iReading</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="https://meowv.com" target="_black">喵呜网</a></li>
+                <li><a href="http://xj8c.cc/" target="_black">当然我在瞎扯</a></li>
+                <li><a href="http://v.xj8c.cc/" target="_black">VIP电影在线播放</a></li>
+                <li><a href="https://github.com/Meowv" target="_black">Github</a></li>
+                <li><a href="http://www.weibo.com/Tencentgou/" target="_black">微博</a></li>
+                <li><a href="https://www.zhihu.com/people/meowv/activities" target="_black">知乎</a></li>
+                <li><a href="http://www.jianshu.com/u/808876efc072" target="_black">简书</a></li>
+            </ul>
+        </div>
+    </nav>
+    @RenderBody()
+</body>
+</html>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script>$(function () { $('body').css("background-image", "url(http://t.cn/R0PrmAr)");$('.btnRandom').on('click', function () { window.location.href = "/Random" })})</script>
